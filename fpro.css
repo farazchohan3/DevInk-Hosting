@@ -1,0 +1,3658 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+#loader {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        background: #fff url('images/loader.gif') no-repeat center;
+        z-index: 9999;
+}
+
+.container-fluid{
+}
+
+.container{
+	background-color: white;
+}
+
+#nevig{
+	margin: 20px 0 0 0;
+}
+
+#negicons #whatsapp:hover{
+	color: green;
+}
+
+#negicons #youtube:hover{
+	color: red;
+}
+
+#negicons #instagram:hover{
+	color: pink;
+}
+
+#hrow1{
+	background-color: black;
+}
+
+#hdrow2{
+	background: url('images/mainimg.jpg') no-repeat;
+	background-size: cover;
+}
+
+#hdrow2 h1{
+	font-size: 350%;
+	margin-top: 100px;
+}
+
+#hdrow2 p{
+	text-align: justify;
+	margin-top: 20px;
+}
+
+#hdrow2 button{
+	margin: 20px 0 150px 0;
+	background-color: #eb2b63;
+}
+
+#hdrow2 button a{
+	text-decoration: none;
+	color: white;
+}
+
+#hdrow2 #get button{
+	border-radius: 10px;
+}
+
+#bimg i{
+	font-size: 700%;
+	color: #eb2b63;
+/*	background-color: white;*/
+	margin: 200px 0 0 180px;
+	position: relative;
+/*	border: 4px solid black;*/
+	border-radius: 50%;
+	box-shadow: -5px 5px 10px orange;
+}
+
+#services{
+	margin: 100px 0 0px 0;
+}
+
+#services i{
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#services p{
+	margin: 10px 0 10px 0;
+}
+
+#services h1{
+	font-weight: bold;
+}
+
+#servicesbox{
+	margin: 50px 0 0px 0;
+}
+
+.card{
+	border: none;
+}
+
+.card i{
+	width: 90px;
+	height: 90px;
+	background: #eb2b63;
+	text-align: center;
+	font-size: 250%;
+	border-radius: 50%;
+	margin-top: 60px;
+	padding-top: 25px;
+	color: white;
+}
+
+
+#icon i{
+	width: 130px;
+	height: 130px;
+	background: #eb2b63;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 350%;
+	border-radius: 50%;
+	padding-top: 40px;
+	color: white;
+}
+
+/*#servicesbox h4{
+	font-weight: bold;
+	margin: 20px 0 20px 0;
+}*/
+
+#features{
+	background-color: #421162;
+	color: white;
+	margin: 70px 0 0px 0;
+}
+
+#features i{
+	margin-top: 75px;
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#features p{
+	margin: 10px 0 10px 0;
+}
+
+#features h1{
+	font-weight: bold;
+}
+
+#features #featrow{
+	margin: 60px 0 100px 0;
+}
+
+#features input{
+	border-radius: 10px;
+}
+
+#features button{
+	width: 100%;
+	padding: 16px;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#features button a{
+	text-decoration: none;
+	color: white;
+}
+
+#progress{
+	margin: 70px 0 0px 0;
+}
+
+#progress h6{
+	margin: 10px 0 10px 0;
+}
+
+#progress .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress .progress-bar{
+	width: 80%;
+}
+
+#progress #pg2 .progress-bar{
+	width: 90%;
+}
+
+#progress #pg4 .progress-bar{
+	width: 60%;
+}
+
+#progress #pg5 .progress-bar{
+	width: 70%;
+}
+
+#progress #pg5{
+	margin-bottom: 30px;
+}
+
+#progress .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress .progress span{
+	padding-top: 2.5px;
+	text-align: right;
+}
+
+#price{
+	margin: 70px 0 0px 0;
+}
+
+#price i{
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#price p{
+	margin: 10px 0 10px 0;
+}
+
+#price h1{
+	font-weight: bold;
+}
+
+#pricecard{
+	margin: 50px 0 0px 0;
+}
+
+#pricecard .card{
+	background-color: #EEF6F9;
+	margin: 20px 0 10px 0;
+	border: none;
+}
+
+#pricecard button{
+	padding: 16px;
+	background: #431483;
+	color: white;
+	font-size: 120%;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pcard2 button{
+	padding: 16px;
+	background: #eb2b63;
+	color: white;
+	font-size: 120%;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pcard2 .card-body{
+/*	border: 2px solid #eb2b63;*/
+	border-radius: 5px;
+}
+
+#pricecard p{
+	margin-top: 20px;
+	line-height: 60px;
+}
+
+    #pricecard p span span{
+        font-size: 400%;
+    }
+
+    #pricecard p span sub{
+        font-size: 90%;
+    }
+
+#pricecard p button{
+	margin: 30px 0 30px 0;
+	width: 75%;
+	padding: 16px;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#pricecard p button a{
+	text-decoration: none;
+	color: white;
+}
+
+#dedicate{
+	margin: 50px 0 0px 0;
+}
+
+#dedicate{
+	background-color: #421162;
+	padding: 120px 0 120px 0;
+}
+
+#dedicate button{
+	border-radius: 10px;
+	padding: 11px;
+	background-color: #eb2b63;
+}
+
+#dedicate button a{
+	text-decoration: none;
+	color: white;
+}
+
+#footer{
+	background-color: #260B2C;
+}
+
+#footer h4{
+	margin: 100px 0 40px 0;
+}
+
+#footer p{
+	color: #6C656C;
+	margin: 0 0 30px 0;
+}
+
+#footer .sicons{
+	display: inline-block;
+	margin-bottom: 120px;
+}
+
+#footer .sicons i{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #421162;
+	color: white;
+	font-size: 60%;
+	padding-top: 11px;
+}
+
+#footer .slinks1{
+	color: white;
+    margin: 100px 0 40px 0;	
+}
+
+#footer .slinks1 p{
+	line-height: 40px;
+	margin: 40px 0 0 0;
+}
+
+#footer .slinks1 p a{
+	text-decoration: none;
+	color: #6C656C;
+}
+
+#footer .slinks2 p{
+	line-height: 40px;
+	margin: 165px 0 0 0;
+}
+
+#footer .slinks2 p a{
+	text-decoration: none;
+	color: #6C656C;
+}
+#footer #lposts h6{
+	margin: 100px 0 0 0;
+}
+
+#footer #row1{
+	margin: 50px 0 0px 0;
+}
+
+#footer img{
+	border-radius: 10px;
+}
+
+#footer span{
+	color: #eb2b63;
+}
+
+#footer #row1 p{
+	margin: 5px 0 0px 0;
+}
+
+#footer #row2{
+	margin: 10px 0 0px 0;
+}
+
+#footer #row2 p{
+	margin: 5px 0 0px 0;
+}
+
+#footer #row3{
+	margin: 10px 0 0px 0;
+}
+
+#footer #row3 p{
+	margin: 5px 0 0px 0;
+}
+
+#copyrights{
+	background-color: #110411;
+}
+
+#copyrights .nav ul{
+	list-style: none;
+}
+
+#copyrights #dlinks ul li a{
+	color: #6C656C;
+	text-decoration: none;
+}
+
+#copyrights #dlinks ul li a:hover{
+	color: #742074;
+}
+
+@media screen and (max-width:299px){
+
+	#hdrow2 h1{
+	font-size: 260%;
+	margin-top: 70px;
+}
+
+#hdrow2 p{
+	font-size: 16px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+#hdrow2 button{
+	padding: 12px 30px;
+	margin: 20px 0 100px 0;
+	background-color: #eb2b63;
+}
+
+#hdrow2 button a{
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#hdrow2 #get button{
+	border-radius: 10px;
+}
+
+/*Service Page*/
+
+#services{
+	margin: 80px 0 0px 0;
+}
+
+#services i{
+	font-size: 350%;
+	color: #eb2b63;
+}
+
+#services p{
+	font-size: 18px;
+	margin: 10px 0 10px 0;
+}
+
+#services h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#servicesbox{
+	margin: 0px 0 0px 0;
+}
+
+#servicesbox p{
+	text-align: justify;
+	text-align-last: center;
+}
+
+.card{
+	margin: 30px 0 0 0;
+	border: 1px solid #E3E3E3;
+}
+
+.card i{
+	width: 60px;
+	height: 60px;
+	background: #eb2b63;
+	text-align: center;
+	font-size: 150%;
+	border-radius: 50%;
+	margin-top: 50px;
+	padding-top: 18px;
+	color: white;
+}
+
+#icon i{
+	width: 60px;
+	height: 60px;
+	background: #eb2b63;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 150%;
+	border-radius: 50%;
+	padding-top: 18px;
+	color: white;
+}
+
+#servicesbox p{
+	text-align: justify;
+	text-align-last: center;
+}
+
+#servicesbox h4{
+	color: #eb2b63;
+	font-weight: bold;
+	margin: 10px 0 20px 0;
+}
+
+/*Feature Page*/
+
+#features{
+	background-color: #421162;
+	color: white;
+	margin: 50px 0 0px 0;
+}
+
+#features i{
+	margin-top: 75px;
+	font-size: 350%;
+	color: #eb2b63;
+}
+
+#features p{
+	font-size: 18px;
+	margin: 10px 0 10px 0;
+}
+
+#features h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#features #featrow{
+	margin: 60px 0 100px 0;
+}
+
+#features input{
+	width: 100%;
+	font-size: 15px;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+#features button{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#features button a{
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+}
+
+#featrow small{
+	display: none;
+}
+
+/*Progress*/
+
+#progress{
+	margin: 70px 0 0px 0;
+}
+
+#progress1{
+	margin-bottom: 30px;
+}
+
+#progress1 h6{
+	font-weight: bold;
+	margin: 25px 0 10px 0;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress-bar{
+	width: 80%;
+}
+
+#progress1 #pg2 .progress-bar{
+	width: 90%;
+}
+
+#progress1 #pg4 .progress-bar{
+	width: 60%;
+}
+
+#progress1 #pg5 .progress-bar{
+	width: 70%;
+}
+
+#progress1 #pg5{
+	margin-bottom: 30px;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress span{
+	padding-top: 2.5px;
+	text-align: right;
+}
+
+/*Price*/
+
+#price{
+	margin: 70px 0 0px 0;
+}
+
+#price i{
+	font-size: 350%;
+	color: #eb2b63;
+}
+
+#price p{
+	font-size: 18px;
+	margin: 10px 0 10px 0;
+}
+
+#price h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#pricecard{
+	margin: 50px 0 0px 0;
+}
+
+#pricecard .card{
+	background-color: #EEF6F9;
+	margin: 8px 0 30px 0;
+	border: none;
+}
+
+#pricecard button{
+	padding: 13px 0;
+	background: #431483;
+	color: white;
+	font-size: 110%;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pcard2 button{
+	padding: 13px 0;
+	background: #eb2b63;
+	color: white;
+	font-size: 110%;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pricecard .card-body{
+	border: 1px solid #E3E3E3;
+	border-radius: 5px;
+	
+}
+
+#pcard2 .card-body{
+	border: 1px solid #E3E3E3;
+	border-radius: 5px;
+}
+
+#pricecard p{
+	margin-top: 20px;
+	line-height: 50px;
+}
+
+    #pricecard p span span{
+        font-size: 400%;
+    }
+
+    #pricecard p span sub{
+        font-size: 90%;
+    }
+
+#pricecard p button{
+	margin: 30px 0 20px 0;
+	width: 75%;
+	padding: 10px;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#pricecard p button a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Dedicate*/
+
+#dedicate{
+	margin: 50px 0 0px 0;
+	background-color: #421162;
+	padding: 90px 0 90px 0;
+}
+
+#dedicate h1{
+	font-size: 23px;
+}
+
+#dedicate p{
+	margin: 20px 0;
+	text-align: justify;
+	font-size: 16px;
+}
+
+#dedicate button{
+	border-radius: 8px;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #eb2b63;
+}
+
+#dedicate button a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/*Footer*/
+
+#footer{
+	background-color: #260B2C;
+}
+
+#footer h4{
+	font-size: 20px;
+	margin: 70px 0 20px 0;
+}
+
+#footer p{
+	text-align: justify;
+	color: #6C656C;
+	margin: 0 0 30px 0;
+}
+
+#footer .sicons{
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+#footer .sicons i{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #421162;
+	color: white;
+	font-size: 60%;
+	padding-top: 11px;
+}
+
+#footer .slinks1{
+	color: white;
+    margin: 60px 0 40px 0;	
+}
+
+#footer .slinks1 h5{
+	color: white;
+	font-size: 20px;
+}
+
+#footer .slinks1 p{
+	line-height: 40px;
+	margin: 20px 0 0 0;
+}
+
+#footer .slinks1 p a{
+	text-decoration: none;
+	color: #6C656C;
+}
+
+#footer .slinks2 p{
+	line-height: 40px;
+	margin: 106px 0 0 0;
+}
+
+#footer .slinks2 p a{
+	text-decoration: none;
+	color: #6C656C;
+}
+#footer #lposts h6{
+	font-size: 20px;
+	margin: 30px 0 0 0;
+}
+
+#footer #row1{
+	align-items: center;
+	margin: 30px 0 0px 0;
+}
+
+#footer img{
+	padding-top: 3px;
+	border-radius: 10px;
+}
+
+#footer span{
+	font-size: 14px;
+	color: #eb2b63;
+}
+
+#footer #row2{
+	align-items: center;
+	margin: 10px 0 0px 0;
+}
+
+#footer #row3{
+	align-items: center;
+	margin: 10px 0 30px 0;
+}
+
+#copyrights{
+	padding: 20px 0;
+	background-color: #110411;
+}
+
+#copyrights ul{
+	margin: 0px 0 10px 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+#copyrights #dlinks ul li a{
+	color: #6C656C;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+#copyrights #dlinks ul li a:hover{
+	color: #742074;
+}
+
+#copyrights #cpydata{
+	font-size: 14px;
+}
+
+}
+
+
+@media screen and (max-width:575px) and (min-width:300px){
+
+/*Main Page*/
+
+#hdrow2 h1{
+	font-size: 260%;
+	margin-top: 70px;
+}
+
+#hdrow2 p{
+	font-size: 16px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+#hdrow2 button{
+	padding: 12px 30px;
+	margin: 20px 0 100px 0;
+	background-color: #eb2b63;
+}
+
+#hdrow2 button a{
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#hdrow2 #get button{
+	border-radius: 10px;
+}
+
+/*Service Page*/
+
+#services{
+	margin: 80px 0 0px 0;
+}
+
+#services i{
+	font-size: 350%;
+	color: #eb2b63;
+}
+
+#services p{
+	font-size: 18px;
+	margin: 10px 0 10px 0;
+}
+
+#services h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#servicesbox{
+	margin: 0px 0 0px 0;
+}
+
+#servicesbox p{
+	text-align: justify;
+	text-align-last: center;
+}
+
+.card{
+	margin: 30px 0 0 0;
+	border: 1px solid #E3E3E3;
+}
+
+.card i{
+	width: 60px;
+	height: 60px;
+	background: #eb2b63;
+	text-align: center;
+	font-size: 150%;
+	border-radius: 50%;
+	margin-top: 50px;
+	padding-top: 18px;
+	color: white;
+}
+
+#icon i{
+	width: 60px;
+	height: 60px;
+	background: #eb2b63;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 150%;
+	border-radius: 50%;
+	padding-top: 18px;
+	color: white;
+}
+
+#servicesbox p{
+	text-align: justify;
+	text-align-last: center;
+}
+
+#servicesbox h4{
+	color: #eb2b63;
+	font-weight: bold;
+	margin: 10px 0 20px 0;
+}
+
+/*Feature Page*/
+
+#features{
+	background-color: #421162;
+	color: white;
+	margin: 50px 0 0px 0;
+}
+
+#features i{
+	margin-top: 75px;
+	font-size: 350%;
+	color: #eb2b63;
+}
+
+#features p{
+	font-size: 18px;
+	margin: 10px 0 10px 0;
+}
+
+#features h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#features #featrow{
+	margin: 60px 0 100px 0;
+}
+
+#features input{
+	width: 100%;
+	font-size: 15px;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+#features button{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#features button a{
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+}
+
+#featrow small{
+	display: none;
+}
+
+/*Progress*/
+
+#progress{
+	margin: 70px 0 0px 0;
+}
+
+#progress1{
+	margin-bottom: 30px;
+}
+
+#progress1 h6{
+	font-weight: bold;
+	margin: 25px 0 10px 0;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress-bar{
+	width: 80%;
+}
+
+#progress1 #pg2 .progress-bar{
+	width: 90%;
+}
+
+#progress1 #pg4 .progress-bar{
+	width: 60%;
+}
+
+#progress1 #pg5 .progress-bar{
+	width: 70%;
+}
+
+#progress1 #pg5{
+	margin-bottom: 30px;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress span{
+	padding-top: 2.5px;
+	text-align: right;
+}
+
+/*Price*/
+
+#price{
+	margin: 70px 0 0px 0;
+}
+
+#price i{
+	font-size: 350%;
+	color: #eb2b63;
+}
+
+#price p{
+	font-size: 18px;
+	margin: 10px 0 10px 0;
+}
+
+#price h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#pricecard{
+	margin: 50px 0 0px 0;
+}
+
+#pricecard .card{
+	background-color: #EEF6F9;
+	margin: 8px 0 30px 0;
+	border: none;
+}
+
+#pricecard button{
+	padding: 13px 0;
+	background: #431483;
+	color: white;
+	font-size: 110%;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pcard2 button{
+	padding: 13px 0;
+	background: #eb2b63;
+	color: white;
+	font-size: 110%;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pricecard .card-body{
+	border: 1px solid #E3E3E3;
+	border-radius: 5px;
+	
+}
+
+#pcard2 .card-body{
+	border: 1px solid #E3E3E3;
+	border-radius: 5px;
+}
+
+#pricecard p{
+	margin-top: 20px;
+	line-height: 50px;
+}
+
+    #pricecard p span span{
+        font-size: 400%;
+    }
+
+    #pricecard p span sub{
+        font-size: 90%;
+    }
+
+#pricecard p button{
+	margin: 30px 0 20px 0;
+	width: 75%;
+	padding: 10px;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#pricecard p button a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Dedicate*/
+
+#dedicate{
+	margin: 50px 0 0px 0;
+	background-color: #421162;
+	padding: 90px 0 90px 0;
+}
+
+#dedicate h1{
+	font-size: 23px;
+}
+
+#dedicate p{
+	margin: 20px 0;
+	text-align: justify;
+	font-size: 16px;
+}
+
+#dedicate button{
+	border-radius: 8px;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #eb2b63;
+}
+
+#dedicate button a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/*Footer*/
+
+#footer{
+	background-color: #260B2C;
+}
+
+#footer h4{
+	font-size: 20px;
+	margin: 70px 0 20px 0;
+}
+
+#footer p{
+	text-align: justify;
+	color: #6C656C;
+	margin: 0 0 30px 0;
+}
+
+#footer .sicons{
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+#footer .sicons i{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #421162;
+	color: white;
+	font-size: 60%;
+	padding-top: 11px;
+}
+
+#footer .slinks1{
+	color: white;
+    margin: 60px 0 40px 0;	
+}
+
+#footer .slinks1 h5{
+	color: white;
+	font-size: 20px;
+}
+
+#footer .slinks1 p{
+	line-height: 40px;
+	margin: 20px 0 0 0;
+}
+
+#footer .slinks1 p a{
+	text-decoration: none;
+	color: #6C656C;
+}
+
+#footer .slinks2 p{
+	line-height: 40px;
+	margin: 106px 0 0 0;
+}
+
+#footer .slinks2 p a{
+	text-decoration: none;
+	color: #6C656C;
+}
+#footer #lposts h6{
+	font-size: 20px;
+	margin: 30px 0 0 0;
+}
+
+#footer #row1{
+	align-items: center;
+	margin: 30px 0 0px 0;
+}
+
+#footer img{
+	padding-top: 3px;
+	border-radius: 10px;
+}
+
+#footer span{
+	font-size: 14px;
+	color: #eb2b63;
+}
+
+#footer #row2{
+	align-items: center;
+	margin: 10px 0 0px 0;
+}
+
+#footer #row3{
+	align-items: center;
+	margin: 10px 0 30px 0;
+}
+
+#copyrights{
+	padding: 20px 0;
+	background-color: #110411;
+}
+
+#copyrights ul{
+	margin: 0px 0 10px 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+#copyrights #dlinks ul li a{
+	color: #6C656C;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+#copyrights #dlinks ul li a:hover{
+	color: #742074;
+}
+
+#copyrights #cpydata{
+	font-size: 14px;
+}
+}
+
+@media screen and (max-width:767px) and (min-width:576px){
+
+/*Main Page*/
+
+	#hdrow2 h1{
+	font-size: 280%;
+	margin-top: 70px;
+}
+
+#hdrow2 p{
+	font-size: 18px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+#hdrow2 button{
+	padding: 13px 35px;
+	margin: 20px 0 100px 0;
+	background-color: #eb2b63;
+}
+
+#hdrow2 button a{
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#hdrow2 #get button{
+	border-radius: 10px;
+}
+
+/*Service*/
+
+#services{
+	margin: 90px 0 0px 0;
+}
+
+#services i{
+	font-size: 350%;
+	color: #eb2b63;
+}
+
+#services p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#services h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#servicesbox{
+	margin: 0px 0 0px 0;
+}
+
+#servicesbox p{
+	text-align: justify;
+	text-align-last: center;
+}
+
+.card{
+	margin: 30px 0 0 0;
+	border: 1px solid #E3E3E3;
+}
+
+.card i{
+	width: 75px;
+	height: 75px;
+	background: #eb2b63;
+	text-align: center;
+	font-size: 180%;
+	border-radius: 50%;
+	margin-top: 50px;
+	padding-top: 24px;
+	color: white;
+}
+
+#icon i{
+	width: 75px;
+	height: 75px;
+	background: #eb2b63;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 180%;
+	border-radius: 50%;
+	padding-top: 24px;
+	color: white;
+}
+
+#servicesbox p{
+	text-align: justify;
+	text-align-last: center;
+}
+
+#servicesbox h4{
+	font-weight: bold;
+	margin: 10px 0 20px 0;
+}
+
+/*Features*/
+
+#features{
+	background-color: #421162;
+	color: white;
+	margin: 50px 0 0px 0;
+}
+
+#features i{
+	margin-top: 75px;
+	font-size: 350%;
+	color: #eb2b63;
+}
+
+#features p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#features h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#features #featrow{
+	margin: 60px 0 100px 0;
+}
+
+#features input{
+	width: 100%;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+#features button{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#features button a{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#featrow small{
+	display: none;
+}
+
+/*Progress*/
+
+#progress{
+	margin: 70px 0 0px 0;
+}
+
+#progress1{
+	margin-bottom: 30px;
+}
+
+#progress1 h6{
+	font-weight: bold;
+	margin: 35px 0 10px 0;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress-bar{
+	width: 80%;
+}
+
+#progress1 #pg2 .progress-bar{
+	width: 90%;
+}
+
+#progress1 #pg4 .progress-bar{
+	width: 60%;
+}
+
+#progress1 #pg5 .progress-bar{
+	width: 70%;
+}
+
+#progress1 #pg5{
+	margin-bottom: 30px;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress span{
+	padding-top: 2.5px;
+	text-align: right;
+}
+
+/*Price*/
+
+#price{
+	margin: 70px 0 0px 0;
+}
+
+#price i{
+	font-size: 350%;
+	color: #eb2b63;
+}
+
+#price p{
+	font-size: 18px;
+	margin: 10px 0 10px 0;
+}
+
+#price h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#pricecard{
+	margin: 50px 0 0px 0;
+}
+
+#pricecard .card{
+	background-color: #EEF6F9;
+	margin: 5px 0 30px 0;
+	border: none;
+}
+
+#pricecard button{
+	padding: 14px 0;
+	background: #431483;
+	color: white;
+	font-size: 110%;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pcard2 button{
+	padding: 14px 0;
+	background: #eb2b63;
+	color: white;
+	font-size: 110%;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pcard2 .card-body{
+	border: 2px solid #eb2b63;
+	border-radius: 5px;
+}
+
+#pricecard p{
+	margin-top: 20px;
+	line-height: 45px;
+}
+
+    #pricecard p span span{
+        font-size: 400%;
+    }
+
+    #pricecard p span sub{
+        font-size: 90%;
+    }
+
+#pricecard p button{
+	margin: 20px 0 15px 0;
+	width: 75%;
+	padding: 11px;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#pricecard p button a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Dedicate*/
+
+#dedicate{
+	margin: 50px 0 0px 0;
+	background-color: #421162;
+	padding: 90px 0 90px 0;
+}
+
+#dedicate h1{
+	font-size: 35px;
+}
+
+#dedicate p{
+	margin: 20px 0;
+	text-align: justify;
+	font-size: 18px;
+}
+
+#dedicate button{
+	border-radius: 8px;
+	padding: 11px;
+	margin-top: 20px;
+	background-color: #eb2b63;
+}
+
+#dedicate button a{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+/*Footer*/
+
+#footer{
+	background-color: #260B2C;
+}
+
+#footer h4{
+	margin: 70px 0 20px 0;
+}
+
+#footer p{
+	text-align: justify;
+	color: #6C656C;
+	margin: 0 0 30px 0;
+}
+
+#footer .sicons{
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+#footer .sicons i{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #421162;
+	color: white;
+	font-size: 60%;
+	padding-top: 11px;
+}
+
+#footer .slinks1{
+	color: white;
+    margin: 60px 0 40px 0;	
+}
+
+#footer .slinks1 h5{
+	color: white;
+	font-size: 22px;
+}
+
+#footer .slinks1 p{
+	line-height: 40px;
+	margin: 20px 0 0 0;
+}
+
+#footer .slinks1 p a{
+	text-decoration: none;
+	color: #6C656C;
+}
+
+#footer .slinks2 p{
+	line-height: 40px;
+	margin: 107px 0 0 0;
+}
+
+#footer .slinks2 p a{
+	text-decoration: none;
+	color: #6C656C;
+}
+#footer #lposts h6{
+	font-size: 22px;
+	margin: 30px 0 50px 0;
+}
+
+#footer #row1{
+	align-items: center;
+	margin: 30px 0 0px 0;
+}
+
+#footer img{
+	padding-top: 3px;
+	border-radius: 10px;
+}
+
+#footer span{
+	font-size: 16px;
+	color: #eb2b63;
+}
+
+#footer #row1 p{
+	text-align: left;
+	font-size: 18px;
+}
+
+#footer #row2{
+	align-items: center;
+	margin: 10px 0 0px 0;
+}
+
+#footer #row2 p{
+	font-size: 18px;
+}
+
+#footer #row3{
+	align-items: center;
+	margin: 10px 0 30px 0;
+}
+
+#footer #row3 p{
+	font-size: 18px;
+}
+
+#copyrights{
+	padding: 20px 0;
+	background-color: #110411;
+}
+
+#copyrights ul{
+	margin: 0px 0 10px 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+#copyrights #dlinks ul li a{
+	color: #6C656C;
+	font-size: 18px;
+	margin: 0 12px;
+	text-decoration: none;
+}
+
+#copyrights #dlinks ul li a:hover{
+	color: #742074;
+}
+
+#copyrights #cpydata{
+	font-size: 16px;
+}
+}
+
+
+@media screen and (max-width:991px) and (min-width:768px){
+
+/*Main Page*/
+
+	#hdrow2 h1{
+	font-size: 300%;
+	margin-top: 70px;
+}
+
+#hdrow2 p{
+	font-size: 18px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+#hdrow2 button{
+	padding: 13px 35px;
+	margin: 20px 0 100px 0;
+	background-color: #eb2b63;
+}
+
+#hdrow2 button a{
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#hdrow2 #get button{
+	border-radius: 10px;
+}
+
+/*Service*/
+
+#services{
+	margin: 90px 0 0px 0;
+}
+
+#services i{
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#services p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#services h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#servicesbox{
+	margin: 0px 0 0px 0;
+}
+
+.card{
+	margin: 30px 0 0 0;
+	border: 1px solid #E3E3E3;
+}
+
+.card i{
+	width: 75px;
+	height: 75px;
+	background: #eb2b63;
+	text-align: center;
+	font-size: 180%;
+	border-radius: 50%;
+	margin-top: 50px;
+	padding-top: 24px;
+	color: white;
+}
+
+#icon i{
+	width: 75px;
+	height: 75px;
+	background: #eb2b63;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 180%;
+	border-radius: 50%;
+	padding-top: 24px;
+	color: white;
+}
+
+#servicesbox p{
+	text-align: justify;
+	text-align-last: center;
+}
+
+#servicesbox h4{
+	font-weight: bold;
+	margin: 10px 0 20px 0;
+}
+
+#servicesbox p{
+	text-align: justify;
+	text-align-last: center;
+}
+
+/*Features*/
+
+#features{
+	background-color: #421162;
+	color: white;
+	margin: 50px 0 0px 0;
+}
+
+#features i{
+	margin-top: 75px;
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#features p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#features h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#features #featrow{
+	margin: 60px 0 100px 0;
+}
+
+#features input{
+	width: 100%;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+#features button{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#features button a{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#featrow small{
+	display: none;
+}
+
+/*Progress*/
+
+#progress{
+	margin: 70px 0 0px 0;
+}
+
+#progress1{
+	margin-bottom: 50px;
+}
+
+#progress1 h6{
+	font-weight: bold;
+	margin: 40px 0 10px 0;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress-bar{
+	width: 80%;
+}
+
+#progress1 #pg2 .progress-bar{
+	width: 90%;
+}
+
+#progress1 #pg4 .progress-bar{
+	width: 60%;
+}
+
+#progress1 #pg5 .progress-bar{
+	width: 70%;
+}
+
+#progress1 #pg5{
+	margin-bottom: 30px;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress span{
+	padding-top: 2.5px;
+	text-align: right;
+}
+
+/*Price*/
+
+#price{
+	margin: 100px 0 0px 0;
+}
+
+#price i{
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#price p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#price h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#pricecard{
+	margin: 50px 0 0px 0;
+}
+
+#pricecard .card{
+	background-color: #EEF6F9;
+	margin: 5px 0 10px 0;
+	border: none;
+}
+
+#pricecard button{
+	padding: 16px 0;
+	background: #431483;
+	color: white;
+	font-size: 110%;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pcard2 button{
+	padding: 16px 0;
+	background: #eb2b63;
+	color: white;
+	font-size: 110%;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pricecard .card-body{
+	border: 1px solid #E3E3E3;
+}
+
+#pcard2 .card-body{
+	border: 1px solid #E3E3E3;
+	border-radius: 5px;
+}
+
+#pricecard p{
+	margin-top: 20px;
+	line-height: 55px;
+}
+
+    #pricecard p span span{
+        font-size: 400%;
+    }
+
+    #pricecard p span sub{
+        font-size: 90%;
+    }
+
+#pricecard p button{
+	margin: 20px 0 15px 0;
+	width: 75%;
+	padding: 13px;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#pricecard p button a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Dedicate*/
+
+#dedicate{
+	margin: 50px 0 0px 0;
+	background-color: #421162;
+	padding: 90px 0 110px 0;
+}
+
+#dedicate h1{
+	font-size: 40px;
+}
+
+#dedicate p{
+	margin: 40px 0 20px 0;
+	text-align: justify;
+	font-size: 19px;
+}
+
+#dedicate button{
+	border-radius: 10px;
+	padding: 12px;
+	margin-top: 20px;
+	background-color: #eb2b63;
+}
+
+#dedicate button a{
+	font-size: 17px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+/*Footer*/
+
+#footer{
+	background-color: #260B2C;
+}
+
+#footer h4{
+	font-size: 21px;
+	margin: 70px 0 20px 0;
+}
+
+#footer p{
+	text-align: justify;
+	color: #6C656C;
+	margin: 0 0 30px 0;
+}
+
+#footer .sicons{
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+#footer .sicons i{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #421162;
+	color: white;
+	font-size: 60%;
+	padding-top: 11px;
+}
+
+#footer .slinks1{
+	color: white;
+    margin: 60px 0 40px 0;	
+}
+
+#footer .slinks1 h5{
+	color: white;
+	font-size: 21px;
+}
+
+#footer .slinks1 p{
+	line-height: 40px;
+	margin: 20px 0 0 0;
+}
+
+#footer .slinks1 p a{
+	text-decoration: none;
+	color: #6C656C;
+}
+
+#footer .slinks2 p{
+	line-height: 40px;
+	margin: 108px 0 0 0;
+}
+
+#footer .slinks2 p a{
+	text-decoration: none;
+	color: #6C656C;
+}
+#footer #lposts h6{
+	font-size: 21px;
+	margin: 60px 0 25px 0;
+}
+
+#footer #row1{
+	align-items: center;
+	margin: 30px 0 0px 0;
+}
+
+#footer img{
+	padding-top: 3px;
+	border-radius: 8px;
+}
+
+#footer span{
+	font-size: 14px;
+	color: #eb2b63;
+}
+
+#footer #row1 p{
+	text-align: left;
+	font-size: 16px;
+}
+
+#footer #row2{
+	align-items: center;
+	margin: 10px 0 0px 0;
+}
+
+#footer #row2 p{
+	font-size: 16px;
+}
+
+#footer #row3{
+	align-items: center;
+	margin: 10px 0 30px 0;
+}
+
+#footer #row3 p{
+	font-size: 16px;
+}
+
+#copyrights{
+	padding: 20px 0;
+	background-color: #110411;
+}
+
+#copyrights ul{
+	margin: 0px 10px 10px 10px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+#copyrights #dlinks ul li a{
+	color: #6C656C;
+	margin: 0 13px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#copyrights #dlinks ul li a:hover{
+	color: #742074;
+}
+
+#copyrights #cpydata{
+	font-size: 16px;
+}
+}
+
+@media screen and (max-width:1199px) and (min-width:992px){
+
+/*Main Page*/
+
+#hdrow2 h1{
+	font-size: 280%;
+	margin-top: 70px;
+}
+
+#hdrow2 p{
+	font-size: 18px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+#hdrow2 button{
+	padding: 13px 35px;
+	margin: 20px 0 120px 0;
+	background-color: #eb2b63;
+}
+
+#hdrow2 button a{
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#hdrow2 #get button{
+	border-radius: 10px;
+}
+
+/*Service*/
+
+#services{
+	margin: 90px 0 0px 0;
+}
+
+#services i{
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#services p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#services h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#servicesbox{
+	margin: 20px 0 0px 0;
+}
+
+#servicesbox p{
+	font-size: 17px;
+	text-align: justify;
+	text-align-last: center;
+}
+
+.card{
+	margin: 30px 0 0 0;
+	border: 1px solid #E3E3E3;
+}
+
+.card i{
+	width: 75px;
+	height: 75px;
+	background: #eb2b63;
+	text-align: center;
+	font-size: 180%;
+	border-radius: 50%;
+	margin-top: 50px;
+	padding-top: 24px;
+	color: white;
+}
+
+#icon i{
+	width: 100px;
+	height: 100px;
+	background: #eb2b63;
+	text-align: center;
+	margin-top: 25px;
+	font-size: 180%;
+	border-radius: 50%;
+	padding-top: 35px;
+	color: white;
+}
+
+#servicesbox p{
+	text-align: justify;
+	text-align-last: center;
+}
+
+#servicesbox h4{
+	font-size: 27px;
+	margin: 20px 0 20px 0;
+}
+
+#servicesbox h4:hover{
+	color: #eb2b63;
+}
+
+/*Features*/
+
+#features{
+	background-color: #421162;
+	color: white;
+	margin: 50px 0 0px 0;
+}
+
+#features i{
+	margin-top: 75px;
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#features p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#features h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#features #featrow{
+	margin: 60px 0 120px 0;
+}
+
+#features input{
+	width: 100%;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+#features button{
+	width: 100%;
+	padding: 15px 0;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#features button a{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#featrow small{
+	color: white;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+/*Progress*/
+
+#progress{
+	margin: 70px 0 0px 0;
+}
+
+#progress1{
+	margin-bottom: 30px;
+}
+
+#progress1 h6{
+	font-weight: bold;
+	margin: 20px 0 5px 0;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress-bar{
+	width: 80%;
+}
+
+#progress1 #pg2 .progress-bar{
+	width: 90%;
+}
+
+#progress1 #pg4 .progress-bar{
+	width: 60%;
+}
+
+#progress1 #pg5 .progress-bar{
+	width: 70%;
+}
+
+#progress1 #pg5{
+	margin-bottom: 30px;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress span{
+	padding-top: 2.5px;
+	text-align: right;
+}
+
+/*Price*/
+
+#price{
+	margin: 70px 0 0px 0;
+}
+
+#price i{
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#price p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#price h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#pricecard{
+	margin: 50px 0 0px 0;
+}
+
+#pricecard .card{
+	background-color: #EEF6F9;
+	margin: 10px 0 10px 0;
+	border: none;
+}
+
+#pricecard button{
+	padding: 16px 0;
+	background: #431483;
+	color: white;
+	font-size: 110%;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pcard2 button{
+	padding: 16px 0;
+	background: #eb2b63;
+	color: white;
+	font-size: 110%;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pricecard .card-body{
+	border-radius: 5px;
+	border: 1px solid #E3E3E3;
+}
+
+#pcard2 .card-body{
+	border: 1px solid #E3E3E3;
+	border-radius: 5px;
+}
+
+#pricecard p{
+	margin-top: 20px;
+	line-height: 55px;
+}
+
+    #pricecard p span span{
+        font-size: 400%;
+    }
+
+    #pricecard p span sub{
+        font-size: 90%;
+    }
+
+#pricecard p button{
+	margin: 20px 0 15px 0;
+	width: 75%;
+	padding: 13px;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#pricecard p button a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Dedicate*/
+
+#dedicate{
+	margin: 50px 0 0px 0;
+	background-color: #421162;
+	padding: 100px 0 100px 0;
+}
+
+#dedicate h1{
+	font-size: 45px;
+}
+
+#dedicate p{
+	margin: 20px 0;
+	text-align: justify;
+	font-size: 19px;
+}
+
+#dedicate button{
+	border-radius: 8px;
+	padding: 14px;
+	margin-top: 10px;
+	background-color: #eb2b63;
+}
+
+#dedicate button a{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+/*Footer*/
+
+#footer{
+	background-color: #260B2C;
+}
+
+#footer h4{
+	font-size: 21px;
+	margin: 80px 0 0px 0;
+}
+
+#footer p{
+	text-align: justify;
+	color: #6C656C;
+	font-size: 18px;
+	margin: 40px 0 30px 0;
+}
+
+#footer .sicons{
+	display: inline-block;
+}
+
+#footer .sicons a{
+	font-size: 22px;
+}
+
+#footer .sicons i{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #421162;
+	color: white;
+	font-size: 60%;
+	padding-top: 11px;
+}
+
+#footer .slinks1 h5{
+	color: white;
+	font-size: 21px;
+}
+
+#footer .slinks1{
+	color: white;
+    margin: 75px 0 40px 0;	
+}
+
+#footer .slinks1 p{
+	line-height: 38px;
+	margin: 37px 0 0 0;
+}
+
+#footer .slinks1 p a{
+	font-size: 17px;
+	text-decoration: none;
+	color: #6C656C;
+}
+
+#footer .slinks2 p{
+	line-height: 40px;
+	margin: 138px 0 0 0;
+}
+
+#footer .slinks2 p a{
+	font-size: 17px;
+	line-height: 38px;
+	text-decoration: none;
+	color: #6C656C;
+}
+#footer #lposts h6{
+	font-size: 21px;
+	margin: 73px 0 50px 0;
+}
+
+#footer #row1{
+	align-items: center;
+	margin: 30px 0 0px 0;
+}
+
+#footer img{
+	padding-top: 3px;
+	border-radius: 10px;
+}
+
+#footer span{
+	font-size: 13px;
+	color: #eb2b63;
+}
+
+#footer #row1 p{
+	text-align: left;
+	font-size: 16px;
+}
+
+#footer #row2{
+	align-items: center;
+	margin: 10px 0 0px 0;
+}
+
+#footer #row2 p{
+	text-align: left;
+	font-size: 16px;
+}
+
+#footer #row3{
+	align-items: center;
+	margin: 10px 0 30px 0;
+}
+
+#footer #row3 p{
+	text-align: left;
+	font-size: 16px;
+}
+
+#copyrights{
+	padding: 15px 0 10px 0;
+	background-color: #110411;
+}
+
+#copyrights ul{
+	margin: 0px 0 10px 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+#copyrights #dlinks ul li a{
+	color: #6C656C;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#copyrights #dlinks ul li a:hover{
+	color: #742074;
+}
+
+#copyrights #cpydata{
+	font-size: 17px;
+}
+}
+
+@media screen and (max-width:1399px) and (min-width:1200px){
+
+/*Main Page*/
+
+#hdrow2 h1{
+	font-size: 280%;
+	margin-top: 70px;
+}
+
+#hdrow2 p{
+	font-size: 18px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+#hdrow2 button{
+	padding: 15px 40px;
+	margin: 20px 0 150px 0;
+	background-color: #eb2b63;
+}
+
+#hdrow2 button:hover{
+	background-color: white;
+}
+
+#hdrow2 button:hover a{
+	color: #eb2b63;
+}
+
+#hdrow2 button a{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#hdrow2 #get button{
+	border-radius: 10px;
+}
+
+/*Service*/
+
+#services{
+	margin: 100px 0 0px 0;
+}
+
+#services i{
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#services p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#services h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#servicesbox{
+	margin: 50px 0 0px 0;
+}
+
+#servicesbox h4:hover{
+	color: #eb2b63;
+}
+
+#servicesbox p{
+	text-align: justify;
+	text-align-last: center;
+}
+
+#servicesbox .card{
+	margin: 40px 0 0 0;
+	border: 1px solid #E3E3E3;
+}
+
+#servicesbox .card:hover{
+	border: 1px solid #eb2b63;
+}
+
+#servicesbox #azeem{
+	box-shadow: none;
+	border: none;
+}
+
+.card i{
+	width: 90px;
+	height: 90px;
+	background: #eb2b63;
+	text-align: center;
+	font-size: 250%;
+	border-radius: 50%;
+	margin-top: 60px;
+	padding-top: 25px;
+	color: white;
+}
+
+#icon i{
+	width: 130px;
+	height: 130px;
+	background: #eb2b63;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 350%;
+	border-radius: 50%;
+	padding-top: 40px;
+	color: white;
+}
+
+.card i:hover{
+	background: #E3E3E3;
+	color: black;
+}
+
+#icon i:hover{
+	background: #E3E3E3;
+	color: black;
+}
+
+#servicesbox h4{
+	font-weight: bold;
+	font-size: 25px;
+	margin: 20px 0 20px 0;
+}
+
+#servicesbox p{
+	font-size: 18px;
+}
+
+/*Features*/
+
+#features{
+	background-color: #421162;
+	color: white;
+	margin: 100px 0 0px 0;
+}
+
+#features i{
+	margin-top: 75px;
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#features p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#features h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#features #featrow{
+	margin: 60px 0 120px 0;
+}
+
+#features input{
+	font-size: 110%;
+	width: 100%;
+	padding: 18px 20px;
+	border-radius: 10px;
+}
+
+#features button{
+	width: 100%;
+	padding: 18px 0;
+	font-size: 110%;
+	background-color: #eb2b63;
+}
+
+#features button a{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#featrow small{
+	color: white;
+	margin-top: 8px;
+	font-size: 16px;
+}
+
+/*Progress*/
+
+#progress{
+	margin: 120px 0 0px 0;
+}
+
+#progress1{
+	margin-bottom: 30px;
+}
+
+#progress1 h6{
+	font-weight: bold;
+	margin: 35px 0 8px 0;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress-bar{
+	width: 80%;
+}
+
+#progress1 #pg2 .progress-bar{
+	width: 90%;
+}
+
+#progress1 #pg4 .progress-bar{
+	width: 60%;
+}
+
+#progress1 #pg5 .progress-bar{
+	width: 70%;
+}
+
+#progress1 #pg5{
+	margin-bottom: 30px;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress span{
+	padding-top: 2.5px;
+	text-align: right;
+}
+
+/*Price*/
+
+#price{
+	margin: 120px 0 0px 0;
+}
+
+#price i{
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#price p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#price h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#pricecard{
+	margin: 50px 0 0px 0;
+}
+
+#pricecard .card{
+	background-color: #EEF6F9;
+	margin: 15px 0 10px 0;
+	border: none;
+}
+
+#pricecard button{
+	padding: 22px 0;
+	background: #431483;
+	color: white;
+	font-size: 110%;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pcard2 button{
+	padding: 22px 0;
+	background: #eb2b63;
+	color: white;
+	font-size: 110%;
+	font-weight: bold;
+	width: 100%;
+}
+
+.card:hover .card-body{
+	box-shadow: 10px 10px 15px #E3E3E3, -10px -10px 15px #E3E3E3;
+	border-radius: 5px;
+	border: 2px solid #eb2b63;
+}
+
+#pricecard p{
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 65px;
+}
+
+    #pricecard p span span{
+        font-size: 400%;
+    }
+
+    #pricecard p span sub{
+        font-size: 90%;
+    }
+
+#pricecard p button{
+	margin: 20px 0 15px 0;
+	width: 75%;
+	padding: 14px 0;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#pricecard p button a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Dedicate*/
+
+#dedicate{
+	margin: 50px 0 0px 0;
+	background-color: #421162;
+	padding: 100px 0 100px 0;
+}
+
+#dedicate h1{
+	font-size: 50px;
+}
+
+#dedicate p{
+	margin: 20px 0;
+	text-align: justify;
+	font-size: 20px;
+}
+
+#dedicate button{
+	border-radius: 8px;
+	padding: 14px;
+	margin-top: 130px;
+	background-color: #eb2b63;
+}
+
+#dedicate button a{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+/*Footer*/
+
+#footer{
+	background-color: #260B2C;
+}
+
+#footer h4{
+	margin: 80px 0 0px 0;
+}
+
+#footer p{
+	text-align: justify;
+	color: #6C656C;
+	font-size: 18px;
+	margin: 40px 0 30px 0;
+}
+
+#footer .sicons{
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+#footer .sicons a{
+	font-size: 23px;
+}
+
+#footer .sicons i{
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	background-color: #421162;
+	color: white;
+	font-size: 60%;
+	padding-top: 13px;
+}
+
+#footer .slinks1 h5{
+	color: white;
+	font-size: 25px;
+}
+
+#footer .slinks1{
+	color: white;
+    margin: 75px 0 40px 0;	
+}
+
+#footer .slinks1 p{
+	line-height: 42px;
+	margin: 37px 0 0 0;
+}
+
+#footer .slinks1 p a:hover{
+	color: #742074;
+}
+
+#footer .slinks1 p a{
+	text-decoration: none;
+	color: #6C656C;
+}
+
+#footer .slinks2 p{
+	margin: 140px 0 0 0;
+}
+
+#footer .slinks2 p a{
+	line-height: 42px;
+	text-decoration: none;
+	color: #6C656C;
+}
+
+#footer .slinks2 p a:hover{
+	color: #742074;
+}
+
+#footer #lposts h6{
+	font-size: 25px;
+	margin: 75px 0 43px 0;
+}
+
+#footer #row1{
+	align-items: center;
+	margin: 30px 0 0px 0;
+}
+
+#footer img{
+	padding-top: 3px;
+	border-radius: 10px;
+}
+
+#footer span{
+	font-size: 16px;
+	color: #eb2b63;
+}
+
+#footer #row1 p{
+	text-align: left;
+	font-size: 18px;
+}
+
+#footer #row2{
+	align-items: center;
+	margin: 10px 0 0px 0;
+}
+
+#footer #row2 p{
+	text-align: left;
+	font-size: 18px;
+}
+
+#footer #row3{
+	align-items: center;
+	margin: 10px 0 100px 0;
+}
+
+#footer #row3 p{
+	text-align: left;
+	font-size: 18px;
+}
+
+#copyrights{
+	padding: 20px 0 10px 0;
+	background-color: #110411;
+}
+
+#copyrights ul{
+	margin: 0px 0 10px 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+#copyrights #dlinks ul li a{
+	color: #6C656C;
+	font-weight: bold;
+	font-size: 19px;
+	text-decoration: none;
+}
+
+#copyrights #dlinks ul li a:hover{
+	color: #742074;
+}
+
+#copyrights #cpydata{
+	font-size: 18px;
+}
+}
+
+
+@media screen and (min-width:1400px){
+
+/*Main Page*/
+
+#hdrow2 h1{
+	font-size: 320%;
+	margin-top: 70px;
+}
+
+#hdrow2 p{
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+#hdrow2 button{
+	padding: 15px 35px;
+	margin: 20px 0 150px 0;
+	background-color: #eb2b63;
+}
+
+#hdrow2 button a{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#hdrow2 #get button{
+	border-radius: 10px;
+}
+
+/*Service*/
+
+#services{
+	margin: 100px 0 0px 0;
+}
+
+#services i{
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#services p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#services h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#servicesbox{
+	margin: 50px 0 0px 0;
+}
+
+#servicesbox .card{
+	margin: 40px 0 0 0;
+	border: 1px solid #E3E3E3;
+}
+
+#servicesbox .card:hover{
+	border: 1px solid #eb2b63;
+}
+
+#servicesbox #azeem{
+	box-shadow: none;
+	border: none;
+}
+
+.card i{
+	width: 100px;
+	height: 100px;
+	background: #eb2b63;
+	text-align: center;
+	font-size: 230%;
+	border-radius: 50%;
+	margin-top: 60px;
+	padding-top: 30px;
+	color: white;
+}
+
+#icon i{
+	width: 150px;
+	height: 150px;
+	background: #eb2b63;
+	text-align: center;
+	margin-top: 12px;
+	font-size: 350%;
+	border-radius: 50%;
+	padding-top: 50px;
+	color: white;
+}
+
+.card i:hover{
+	background: #E3E3E3;
+	color: black;
+}
+
+#icon i:hover{
+	background: #E3E3E3;
+	color: black;
+}
+
+#servicesbox h4:hover{
+	color: #eb2b63;
+}
+
+#servicesbox h4{
+	font-size: 27px;
+	margin: 20px 0 20px 0;
+}
+
+#servicesbox p{
+	text-align: justify;
+	text-align-last: center;
+	font-size: 19px;
+}
+
+/*Features*/
+
+#features{
+	background-color: #421162;
+	color: white;
+	margin: 50px 0 0px 0;
+}
+
+#features i{
+	margin-top: 75px;
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#features p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#features h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#features #featrow{
+	margin: 60px 0 120px 0;
+}
+
+#features input{
+	font-size: 110%;
+	width: 100%;
+	padding: 18px 20px;
+	border-radius: 10px;
+}
+
+#features button{
+	width: 100%;
+	padding: 18px 0;
+	font-size: 110%;
+	background-color: #eb2b63;
+}
+
+#features button a{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#featrow small{
+	color: white;
+	margin-top: 8px;
+	font-size: 16px;
+}
+
+/*Progress*/
+
+#progress{
+	margin: 70px 0 0px 0;
+}
+
+#progress1{
+	margin-bottom: 30px;
+}
+
+#progress1 h6{
+	font-size: 21px;
+	font-weight: bold;
+	margin: 35px 0 8px 0;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress-bar{
+	width: 80%;
+}
+
+#progress1 #pg2 .progress-bar{
+	width: 90%;
+}
+
+#progress1 #pg4 .progress-bar{
+	width: 60%;
+}
+
+#progress1 #pg5 .progress-bar{
+	width: 70%;
+}
+
+#progress1 #pg5{
+	margin-bottom: 30px;
+}
+
+#progress1 .progress{
+	height: 10px;
+	font-size: 60%;
+}
+
+#progress1 .progress span{
+	padding-top: 2.5px;
+	text-align: right;
+}
+
+/*Price*/
+
+#price{
+	margin: 120px 0 0px 0;
+}
+
+#price i{
+	font-size: 450%;
+	color: #eb2b63;
+}
+
+#price p{
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#price h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#pricecard{
+	margin: 50px 0 0px 0;
+}
+
+#pricecard .card{
+	background-color: #EEF6F9;
+	margin: 15px 0 10px 0;
+	border: none;
+}
+
+#pricecard button{
+	padding: 22px 0;
+	background: #431483;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+}
+
+#pcard2 button{
+	padding: 22px 0;
+	background: #eb2b63;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+}
+
+.card:hover .card-body{
+	box-shadow: 10px 10px 15px #E3E3E3, -10px -10px 15px #E3E3E3;
+	border: 2px solid #eb2b63;
+	border-radius: 5px;
+}
+
+#pricecard p{
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 20px;
+	line-height: 65px;
+}
+
+    #pricecard p span span{
+        font-size: 400%;
+    }
+
+    #pricecard p span sub{
+        font-size: 90%;
+    }
+
+#pricecard p button{
+	margin: 20px 0 15px 0;
+	width: 65%;
+	padding: 15px 0;
+	font-size: 100%;
+	background-color: #eb2b63;
+}
+
+#pricecard p button a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+/*Dedicate*/
+
+#dedicate{
+	margin: 50px 0 0px 0;
+	background-color: #421162;
+	padding: 100px 0 100px 0;
+}
+
+#dedicate h1{
+	font-size: 55px;
+}
+
+#dedicate p{
+	margin: 20px 0;
+	text-align: justify;
+	font-size: 20px;
+}
+
+#dedicate button{
+	border-radius: 10px;
+	padding: 18px;
+	margin-top: 70px;
+	background-color: #eb2b63;
+}
+
+#dedicate button a{
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+/*Footer*/
+
+#footer{
+	background-color: #260B2C;
+}
+
+#footer h4{
+	font-size: 28px;
+	margin: 80px 0 0px 0;
+}
+
+#footer p{
+	text-align: justify;
+	color: #6C656C;
+	font-size: 20px;
+	margin: 40px 0 30px 0;
+}
+
+#footer .sicons{
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+#footer .sicons i{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #421162;
+	color: white;
+	font-size: 17px;
+	padding-top: 11px;
+}
+
+#footer .slinks1 h5{
+	color: white;
+	font-size: 28px;
+}
+
+#footer .slinks1{
+	color: white;
+    margin: 75px 0 40px 0;	
+}
+
+#footer .slinks1 p{
+	line-height: 45px;
+	margin: 37px 0 0 0;
+}
+
+#footer .slinks1 p a:hover{
+	color: #742074;
+}
+
+#footer .slinks1 p a{
+	font-size: 19px;
+	text-decoration: none;
+	color: #6C656C;
+}
+
+#footer .slinks2 p{
+	font-size: 19px;
+	line-height: 45px;
+	margin: 145px 0 0 0;
+}
+
+#footer .slinks2 p a{
+	text-decoration: none;
+	color: #6C656C;
+}
+
+#footer .slinks2 p a:hover{
+	color: #742074;
+}
+
+#footer #lposts h6{
+	font-size: 28px;
+	margin: 75px 0 43px 0;
+}
+
+#footer #row1{
+	align-items: center;
+	margin: 30px 0 0px 0;
+}
+
+#footer img{
+	padding-top: 3px;
+	border-radius: 10px;
+}
+
+#footer span{
+	font-size: 17px;
+	color: #eb2b63;
+}
+
+#footer #row1 p{
+	text-align: left;
+	font-size: 20px;
+}
+
+#footer #row2{
+	align-items: center;
+	margin: 10px 0 0px 0;
+}
+
+#footer #row2 p{
+	text-align: left;
+	font-size: 20px;
+}
+
+#footer #row3{
+	align-items: center;
+	margin: 10px 0 100px 0;
+}
+
+#footer #row3 p{
+	text-align: left;
+	font-size: 20px;
+}
+
+#copyrights{
+	padding: 23px 0 15px 0;
+	background-color: #110411;
+}
+
+#copyrights ul{
+	margin: 0px 0 10px 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+#copyrights #dlinks ul li a{
+	color: #6C656C;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#copyrights #dlinks ul li a:hover{
+	color: #742074;
+}
+
+#copyrights #cpydata{
+	font-size: 18px;
+}
+}
